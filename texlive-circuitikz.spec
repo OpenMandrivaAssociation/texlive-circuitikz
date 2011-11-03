@@ -1,3 +1,9 @@
+# revision 23913
+# category Package
+# catalog-ctan /graphics/pgf/contrib/circuitikz
+# catalog-date 2009-11-25 18:21:28 +0100
+# catalog-license lppl
+# catalog-version 0.2.3
 Name:		texlive-circuitikz
 Version:	0.2.3
 Release:	1
@@ -59,6 +65,7 @@ package.
 %doc %{_texmfdistdir}/doc/latex/circuitikz/circuitikz-context.tex
 %doc %{_texmfdistdir}/doc/latex/circuitikz/circuitikzmanual.pdf
 %doc %{_texmfdistdir}/doc/latex/circuitikz/circuitikzmanual.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -69,3 +76,5 @@ package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
