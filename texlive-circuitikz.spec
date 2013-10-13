@@ -1,12 +1,12 @@
-# revision 23913
+# revision 28665
 # category Package
 # catalog-ctan /graphics/pgf/contrib/circuitikz
-# catalog-date 2009-11-25 18:21:28 +0100
+# catalog-date 2012-12-29 14:51:49 +0100
 # catalog-license lppl
-# catalog-version 0.2.3
+# catalog-version 0.3.0
 Name:		texlive-circuitikz
-Version:	0.2.3
-Release:	2
+Version:	0.3.0
+Release:	1
 Summary:	Draw electrical networks with TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/circuitikz
@@ -66,18 +66,3 @@ package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2.3-2
-+ Revision: 750230
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2.3-1
-+ Revision: 718061
-- texlive-circuitikz
-- texlive-circuitikz
-- texlive-circuitikz
-- texlive-circuitikz
-- texlive-circuitikz
-
