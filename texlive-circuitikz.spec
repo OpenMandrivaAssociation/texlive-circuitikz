@@ -6,7 +6,7 @@
 # catalog-version 0.3.0
 Name:		texlive-circuitikz
 Version:	0.3.0
-Release:	5
+Release:	6
 Summary:	Draw electrical networks with TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/circuitikz
