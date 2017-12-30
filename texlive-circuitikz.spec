@@ -1,12 +1,6 @@
-# revision 28665
-# category Package
-# catalog-ctan /graphics/pgf/contrib/circuitikz
-# catalog-date 2012-12-29 14:51:49 +0100
-# catalog-license lppl
-# catalog-version 0.3.0
 Name:		texlive-circuitikz
-Version:	0.3.0
-Release:	9
+Version:	0.8.3
+Release:	1
 Summary:	Draw electrical networks with TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/circuitikz
@@ -36,26 +30,12 @@ package.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/circuitikz/circuitikz.code.tex
-%{_texmfdistdir}/tex/latex/circuitikz/circuitikz.sty
-%{_texmfdistdir}/tex/latex/circuitikz/circuitikz1.code.tex
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcircbipoles.sty
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcirccurrent.sty
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcirclabel.sty
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcircmath.sty
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcircmonopoles.sty
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcircquadpoles.sty
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcircshapes.sty
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcirctripoles.sty
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcircutils.sty
-%{_texmfdistdir}/tex/latex/circuitikz/pgfcircvoltage.sty
-%{_texmfdistdir}/tex/latex/circuitikz/t-circuitikz.tex
-%doc %{_texmfdistdir}/doc/latex/circuitikz/CHANGELOG
-%doc %{_texmfdistdir}/doc/latex/circuitikz/README
-%doc %{_texmfdistdir}/doc/latex/circuitikz/circuitikz-context.pdf
-%doc %{_texmfdistdir}/doc/latex/circuitikz/circuitikz-context.tex
-%doc %{_texmfdistdir}/doc/latex/circuitikz/circuitikzmanual.pdf
-%doc %{_texmfdistdir}/doc/latex/circuitikz/circuitikzmanual.tex
+%{_texmfdistdir}/tex/latex/circuitikz
+%{_texmfdistdir}/tex/generic/circuitikz
+%{_texmfdistdir}/tex/context/third/circuitikz
+%doc %{_texmfdistdir}/doc/generic/circuitikz
+%doc %{_texmfdistdir}/doc/latex/circuitikz
+%doc %{_texmfdistdir}/doc/context/third/circuitikz
 
 #-----------------------------------------------------------------------
 %prep
