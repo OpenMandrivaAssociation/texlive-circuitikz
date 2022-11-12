@@ -1,12 +1,12 @@
 Name:		texlive-circuitikz
-Version:	0.8.3
-Release:	2
+Version:	64332
+Release:	1
 Summary:	Draw electrical networks with TikZ
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/circuitikz
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/circuitikz.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/circuitikz.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/circuitikz.r64332.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/circuitikz.doc.r64332.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ output format. So is based on the very impressive pgf/TikZ
 package.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -39,7 +39,7 @@ package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
