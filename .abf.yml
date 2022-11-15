@@ -1,3 +1,4 @@
 sources:
-  circuitikz.doc.r64332.tar.xz: 13e6af179c07cf8cf53657f87b2946e621ee4f0f
-  circuitikz.r64332.tar.xz: 8b10a3eb05269ee88b45198f5a61a64b011ba960
+  circuitikz.doc.r65005.tar.xz: 362095d00407c6033fc18fbcbebc901c5fdda64c
+  circuitikz.r65005.tar.xz: dddb0ca855ff8ac458b8716854ef2b4e78531eeb
+  files-before-rpm: 65d8847c3be965dd6c155ca431ffd7367d9cc73e
