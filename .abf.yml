@@ -1,4 +1,4 @@
 sources:
-  circuitikz.doc.r65005.tar.xz: 362095d00407c6033fc18fbcbebc901c5fdda64c
-  circuitikz.r65005.tar.xz: dddb0ca855ff8ac458b8716854ef2b4e78531eeb
   files-before-rpm: 65d8847c3be965dd6c155ca431ffd7367d9cc73e
+  circuitikz.doc.r65240.tar.xz: 297ec6f0c7d43ec25d12ef30a41fb2c6bac51f69
+  circuitikz.r65240.tar.xz: 291e0ef3532b7880973db480cf812ef478bc8766
