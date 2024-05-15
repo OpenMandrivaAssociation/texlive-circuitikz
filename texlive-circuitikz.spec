@@ -1,5 +1,5 @@
 Name:		texlive-circuitikz
-Version:	69757
+Version:	71178
 Release:	1
 Summary:	Draw electrical networks with TikZ
 Group:		Publishing
